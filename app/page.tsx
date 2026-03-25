@@ -22,14 +22,14 @@ export default function Home() {
             <div className="text-3xl md:text-4xl font-mono font-bold text-[#FFFFFF] mb-4">
               RENOVAGIGANTE
             </div>
-            <div className="flex items-center justify-center gap-2 text-xl md:text-2xl font-normal">
+            <div className="flex items-center justify-center gap-2 text-sm uppercase tracking-wider">
               <span>E APROVEITE JÁ!</span>
             </div>
             <p className="text-[10px] mt-3 text-gray-400 uppercase">O desconto dos 2 meses grátis será diluído nas parcelas.</p>
           </div>
 
           <a 
-            href="https://sociogigante.com/renovar" 
+            href="https://sociogigante.com" 
             className="inline-block w-full md:w-auto bg-[#FFFFFF] hover:bg-gray-200 text-[#000000] text-xl font-bold py-5 px-12 rounded-full transition-colors shadow-lg uppercase tracking-tighter"
           >
             Quero renovar agora
@@ -69,7 +69,7 @@ export default function Home() {
 
           <div className="text-center">
             <a 
-              href="https://sociogigante.com/renovar" 
+              href="https://sociogigante.com" 
               className="inline-block bg-[#000000] hover:bg-gray-800 text-[#FFFFFF] text-lg font-bold py-4 px-10 rounded-lg transition-all uppercase"
             >
               Manter meus benefícios
@@ -86,7 +86,7 @@ export default function Home() {
           </h2>
           
           <a 
-            href="https://sociogigante.com/renovar" 
+            href="https://sociogigante.com" 
             className="inline-block w-full md:w-auto bg-[#000000] hover:bg-gray-800 text-[#FFFFFF] text-xl font-bold py-6 px-16 rounded-full transition-all shadow-xl uppercase mb-8"
           >
             RESGATAR MEU CUPOM
