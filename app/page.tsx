@@ -10,12 +10,11 @@ export default function Home() {
 
         <div className="max-w-3xl mx-auto mt-8">
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight uppercase italic">
-            Renove agora e <br/>
-            <span className="text-[#FFFFFF]">ganhe 2 meses grátis</span>
+            Gigante, renove agora antecipadamente e ganhe dois meses grátis
           </h1>
           
           <p className="text-lg md:text-xl mb-8 text-gray-300 font-medium">
-            Quem renova antes do vencimento garante continuidade, prioridade e ainda leva dois meses grátis no plano da sua escolha.
+            Quem renova antes do vencimento garante continuidade, prioridade e ainda leva desconto no plano da sua escolha
           </p>
 
           <div className="bg-[#1A1A1A] border-2 border-[#FFFFFF] rounded-lg p-6 mb-10 transform hover:scale-105 transition-transform">
@@ -23,10 +22,10 @@ export default function Home() {
             <div className="text-3xl md:text-4xl font-mono font-bold text-[#FFFFFF] mb-4">
               RENOVAGIGANTE
             </div>
-            <div className="flex items-center justify-center gap-2 text-xl md:text-2xl font-bold">
-              <span>e aproveite já!</span>
+            <div className="flex items-center justify-center gap-2 text-xl md:text-2xl font-normal">
+              <span>E APROVEITE JÁ!</span>
             </div>
-            <p className="text-[10px] mt-3 text-gray-400 uppercase">Desconto diluído nas parcelas</p>
+            <p className="text-[10px] mt-3 text-gray-400 uppercase">O desconto dos 2 meses grátis será diluído nas parcelas.</p>
           </div>
 
           <a 
