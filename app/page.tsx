@@ -1,14 +1,6 @@
-import { Titillium_Web } from 'next/font/google';
-
-const titillium = Titillium_Web({
-  subsets: ['latin'],
-  weight: ['200', '300', '400', '600', '700', '900'],
-  display: 'swap',
-});
-
 export default function Home() {
   return (
-    <main className={`${titillium.className} min-h-screen bg-[#FFFFFF] text-[#000000]`}>
+    <main className="min-h-screen bg-[#FFFFFF] text-[#000000] font-sans">
       {/* SCROLL 1 – DIRETO AO PONTO (OFERTA) */}
       <section className="relative flex flex-col items-center justify-center px-4 py-16 text-center bg-[#000000] text-[#FFFFFF] min-h-[90vh]">
         {/* Faixa de Urgência */}
