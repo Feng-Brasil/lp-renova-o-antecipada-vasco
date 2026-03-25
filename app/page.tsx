@@ -1,5 +1,5 @@
 export default function Home() {
-  const CTA_LINK = "https://sociogigante.com/planos";
+  const CTA_LINK = "https://sociogigante.com/home?code=889e80ce-a98b-47e9-a160-feb0e2fac4db";
 
   return (
     <main className="min-h-screen bg-[#FFFFFF] text-[#000000] font-sans">
