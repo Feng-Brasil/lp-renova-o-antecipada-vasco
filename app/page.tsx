@@ -1,8 +1,26 @@
 export default function Home() {
+  const CTA_LINK = "https://sociogigante.com/planos";
+
   return (
     <main className="min-h-screen bg-[#FFFFFF] text-[#000000] font-sans">
       {/* SCROLL 1 – DIRETO AO PONTO (OFERTA) */}
       <section className="relative flex flex-col items-center justify-center px-4 py-16 text-center bg-[#000000] text-[#FFFFFF] min-h-[90vh]">
+        {/* Botões de Login e Cadastro no canto superior direito */}
+        <div className="absolute top-12 right-4 md:right-8 z-20 flex gap-4">
+          <a 
+            href={CTA_LINK} 
+            className="text-[#FFFFFF] text-sm font-bold uppercase hover:underline"
+          >
+            Login
+          </a>
+          <a 
+            href={CTA_LINK} 
+            className="bg-[#FFFFFF] text-[#000000] px-4 py-1 rounded text-sm font-bold uppercase hover:bg-gray-200 transition-colors"
+          >
+            Cadastre-se
+          </a>
+        </div>
+
         {/* Faixa de Urgência */}
         <div className="absolute top-0 w-full bg-[#FFFFFF] text-[#000000] py-2 text-sm font-bold uppercase tracking-widest">
           Não perca tempo
@@ -29,7 +47,7 @@ export default function Home() {
           </div>
 
           <a 
-            href="https://sociogigante.com" 
+            href={CTA_LINK} 
             className="inline-block w-full md:w-auto bg-[#FFFFFF] hover:bg-gray-200 text-[#000000] text-xl font-bold py-5 px-12 rounded-full transition-colors shadow-lg uppercase tracking-tighter"
           >
             Quero renovar agora
@@ -69,7 +87,7 @@ export default function Home() {
 
           <div className="text-center">
             <a 
-              href="https://sociogigante.com" 
+              href={CTA_LINK} 
               className="inline-block bg-[#000000] hover:bg-gray-800 text-[#FFFFFF] text-lg font-bold py-4 px-10 rounded-lg transition-all uppercase"
             >
               Manter meus benefícios
@@ -86,7 +104,7 @@ export default function Home() {
           </h2>
           
           <a 
-            href="https://sociogigante.com" 
+            href={CTA_LINK} 
             className="inline-block w-full md:w-auto bg-[#000000] hover:bg-gray-800 text-[#FFFFFF] text-xl font-bold py-6 px-16 rounded-full transition-all shadow-xl uppercase mb-8"
           >
             RESGATAR MEU CUPOM
