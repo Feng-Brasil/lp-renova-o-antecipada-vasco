@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="max-w-3xl mx-auto mt-8">
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight uppercase italic">
-            Gigante, renove agora antecipadamente e ganhe dois meses grátis
+            GIGANTE, RENOVE AGORA ANTECIPADAMENTE E GANHE 2 MESES GRÁTIS
           </h1>
           
           <p className="text-lg md:text-xl mb-8 text-gray-300 font-medium">
